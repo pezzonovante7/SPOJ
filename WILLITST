@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+
+bool go(ll n)
+{
+	return ceil(log2(n))==floor(log2(n));
+}
+
+int main()
+{
+	ll n;
+	cin>>n;
+	if(go(n))
+		cout<<"TAK"<<endl;
+	else 
+		cout<<"NIE"<<endl;
+}

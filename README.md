@@ -1,0 +1,2 @@
+# SPOJ
+solutions of SPOJ
